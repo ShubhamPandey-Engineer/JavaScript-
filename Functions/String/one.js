@@ -44,5 +44,7 @@ console.log(str.charCodeAt(1))
  console.log(str.startsWith("34S"))
 
  //14- substr()
- console.log(str.substr(-1,0))
+ console.log('Hello'.substr(0,2))  //start & length of extracted part
+
+ console.log('d','Hello'.substring(-1,3))  // no negative index
 
